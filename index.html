@@ -36,6 +36,18 @@
                 font-weight: 800;
             }
             
+            /*for some reason the text-align needs to be in a different class then the rest of the footer*/
+            .footer {
+                text-align:center
+            }
+            .footer2 {
+                position:fixed;
+                bottom:0px;
+                width:100%;
+            }
+            
+            
+            
             #mc-embedded-subscribe-form input[type=checkbox]{
                 display: inline; 
                 width: auto;
@@ -92,16 +104,15 @@
         
         <!-- Begin Mailchimp Signup Form -->
        <link href="//cdn-images.mailchimp.com/embedcode/horizontal-slim-10_7.css" rel="stylesheet" type="text/css">
-        <!--End mc_embed_signup-->
-        
+        <!--End Mailchimp Signup Form -->
     </head>
     
     <body>
-        <div>
+        <main>
             <h1 class="white-text">Silvester 2018</h1>
             <p class="white-text">Jede gute Party <br>braucht Gäste.</p>
             <p class="white-text" style="font-weight: 200; font-size: 20px;">Melde dich zum Newsletter an und verpasse keine Neuigkeiten.</p>
-        </div>
+        </main>
 
         <!-- Mailchimp Signup-->
         <div id="mc_embed_signup">
@@ -124,5 +135,9 @@
         </iframe>
         <!-- End Wikimedia Commons Musikplayer -->
 
+        <footer>
+            <p class="footer footer2" style="font-size: 12px; color: #ffffff;">©2018 Huber &amp; Partner</p>
+        </footer>
+        
     </body>
 </html>
